@@ -8,7 +8,6 @@
 {-# LANGUAGE MultiParamTypeClasses #-}
 
 import Data.Kind (Type)
-import Distribution.Simple (KnownExtension(ScopedTypeVariables))
 -- Support Types
 data Proxy a = Proxy
 data (a :: k1) <<< (b :: k2)
